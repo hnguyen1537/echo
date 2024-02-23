@@ -16,13 +16,12 @@ console.log("n=" + n);
  */
 
   let result = '';
-  console.log(str);
   for (let i = 0; i < n; i++) {
-      result += str + "\n";
+      result += str + "\n"; 
+     
   } 
-
-
-
+  
+  console.log(result);
 
 // DO NOT CHANGE THE LINES BELOW.
 console.log(result);

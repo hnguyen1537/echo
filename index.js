@@ -14,7 +14,15 @@ console.log("n=" + n);
  * For example: if str is 'Hello!', and n is 3, then it should 
  * be 'Hello!\nHello!\nHello!\n'
  */
-let result = '';
+
+  let result = '';
+  console.log(str);
+  for (let i = 0; i < n; i++) {
+      result += str + "\n";
+  } 
+
+
+
 
 // DO NOT CHANGE THE LINES BELOW.
 console.log(result);
